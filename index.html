@@ -6,13 +6,13 @@
     <title>Unity WebGL Player | Testing Stuffs</title>
   </head>
   <body style="text-align: center">
-    <canvas id="unity-canvas" width=1920 height=1080 style="width: 1920px; height: 1080px; background: #231F20"></canvas>
+    <canvas id="unity-canvas" width=854 height=480 style="width: 854px; height: 480px; background: #231F20"></canvas>
     <script src="Build/Test.loader.js"></script>
     <script>
       createUnityInstance(document.querySelector("#unity-canvas"), {
-        dataUrl: "Build/Test.data.gz",
-        frameworkUrl: "Build/Test.framework.js.gz",
-        codeUrl: "Build/Test.wasm.gz",
+        dataUrl: "Build/Test.data",
+        frameworkUrl: "Build/Test.framework.js",
+        codeUrl: "Build/Test.wasm",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "DefaultCompany",
         productName: "Testing Stuffs",
